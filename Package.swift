@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "M3U8Parser",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         .library(name: "M3U8Parser", targets: ["M3U8Parser"]),
     ],
